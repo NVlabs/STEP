@@ -12,8 +12,7 @@ STEP: Spatio-Temporal Progressive Learning for Video Action Detection, CVPR 2019
 ![](example.gif)
 
 ## Table of contents
-* [News](#news)
-* [Getting started](#getting-started)
+* [Getting Started](#getting-started)
     * [Installation](#installation)
     * [(Optional) Demo](#(optional)-demo)
 * [Training on AVA Dataset](#training-on-ava-dataset)
@@ -22,16 +21,14 @@ STEP: Spatio-Temporal Progressive Learning for Video Action Detection, CVPR 2019
     * [Training](#training)
     * [Tips](#tips)
 * [Citation](#citation)
-* [Relation Work](#relation-work)
+* [Related Work](#relation-work)
 * [License](#license)
-
-## News
 
 ## Getting Started
 ### Installation
-- Prerequisites: Python 3.6, Numpy, OpenCV
-- Install Pytorch (>= 1.1.0) and torchvision (>= 0.2.1)
-- (Optional) You may skip it. Install APEX for half-precision training:
+- Prerequisites: Python 3.6, NumPy, OpenCV
+- Install PyTorch (>= 1.1.0) and torchvision (>= 0.2.1)
+- (Optional) You may skip this. Install APEX for half-precision training:
 ```
 git clone https://github.com/NVIDIA/apex.git
 cd apex
@@ -42,7 +39,7 @@ python setup.py install --cuda_ext --cpp_ext
 git clone https://github.com/NVlabs/STEP.git
 cd STEP/
 ```
-- Install external packages (for RoI pooling / align and NMS):
+- Install external packages (for RoI pooling/align and NMS):
 ```bash
 python setup.py build develop
 ```
