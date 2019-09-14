@@ -4,7 +4,7 @@
 ## STEP: Spatio-Temporal Progressive Learning for Video Action Detection
 ![](teaser.jpg)
 
-[[Paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_STEP_Spatio-Temporal_Progressive_Learning_for_Video_Action_Detection_CVPR_2019_paper.pdf) [[Supp]](http://xiaodongyang.org/publications/papers/step-supp-cvpr19.pdf) [[YouTube]]() [[Poster]]()
+[[Paper]](https://arxiv.org/abs/1904.09288) [[Supp]](http://xiaodongyang.org/publications/papers/step-supp-cvpr19.pdf) [[YouTube]]() [[Poster]]()
 
 STEP: Spatio-Temporal Progressive Learning for Video Action Detection, CVPR 2019 (Oral) <br>
 [Xitong Yang](http://users.umiacs.umd.edu/~xyang35/), [Xiaodong Yang](https://xiaodongyang.org/), [Ming-Yu Liu](http://mingyuliu.net/), [Fanyi Xiao](http://fanyix.cs.ucdavis.edu/), [Larry Davis](https://www.cs.umd.edu/people/lsdavis), [Jan Kautz](http://jankautz.com/) <br>
