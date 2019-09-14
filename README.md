@@ -142,7 +142,7 @@ Please cite this paper if it helps your research:
 
 ## Related Work
 In the folder `external/`, we modify the code from [ActivityNet](https://github.com/activitynet/ActivityNet) for parsing annotation files and evaluation, and the code from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) for RoI pooling/align and NMS.
-Please follow the corresponding liceses to use the code.
+Please follow the corresponding license to use the code.
 
 ## License
 Copyright (C) 2019 NVIDIA Corporation. All rights reserved. Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**). The code is released for academic research use only. For commercial use, please contact [researchinquiries@nvidia.com](researchinquiries@nvidia.com).
