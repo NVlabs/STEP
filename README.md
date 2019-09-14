@@ -3,14 +3,13 @@
 
 ## STEP: Spatio-Temporal Progressive Learning for Video Action Detection
 ![](teaser.jpg)
-
 [[Paper]](https://arxiv.org/abs/1904.09288) [[Supp]](http://xiaodongyang.org/publications/papers/step-supp-cvpr19.pdf) [[YouTube]]() [[Poster]]()
 
 STEP: Spatio-Temporal Progressive Learning for Video Action Detection, CVPR 2019 (Oral) <br>
 [Xitong Yang](http://users.umiacs.umd.edu/~xyang35/), [Xiaodong Yang](https://xiaodongyang.org/), [Ming-Yu Liu](http://mingyuliu.net/), [Fanyi Xiao](http://fanyix.cs.ucdavis.edu/), [Larry Davis](https://www.cs.umd.edu/people/lsdavis), [Jan Kautz](http://jankautz.com/) <br>
 
 ![](example.gif)
-STEP is a **fully end-to-end** action detector that performs detection simply from a handful of initial proposals with no need of relying on an extra person detector.   
+STEP is a **fully end-to-end** action detector that performs detection simply from a handful of initial proposals with **no** need of relying on an extra person detector.   
 
 ## Table of contents
 * [Getting Started](#getting-started)
