@@ -132,7 +132,7 @@ GPU memory requirement for the default setting (3 steps, 34 initial proposals, b
 ## Citation
 Please cite this paper if it helps your research:
 ```
-@inproceedings{yang2019step,
+@inproceedings{cvpr2019step,
    title={STEP: Spatio-Temporal Progressive Learning for Video Action Detection},
    author={Yang, Xitong and Yang, Xiaodong and Liu, Ming-Yu and Xiao, Fanyi and Davis, Larry S and Kautz, Jan},
    booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
