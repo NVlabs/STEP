@@ -3,7 +3,7 @@
 
 ## STEP: Spatio-Temporal Progressive Learning for Video Action Detection
 ![](teaser.jpg)
-[[Paper]](https://arxiv.org/abs/1904.09288) [[Supp]](http://xiaodongyang.org/publications/papers/step-supp-cvpr19.pdf) [[YouTube]]() [[Poster]]()
+[[Paper]](https://arxiv.org/abs/1904.09288) [[Supp]](http://xiaodongyang.org/publications/papers/step-supp-cvpr19.pdf) [[YouTube]](https://www.youtube.com/watch?v=JwaBi_2JFeU&list=LLLPwTGzBXCd3HmILvHfIl6A&index=12&t=609s) [[Poster]](https://drive.google.com/open?id=1GWWLH5HQM8FoEIutIOzvtURBI6y09NBr)
 
 STEP: Spatio-Temporal Progressive Learning for Video Action Detection, CVPR 2019 (Oral) <br>
 [Xitong Yang](http://users.umiacs.umd.edu/~xyang35/), [Xiaodong Yang](https://xiaodongyang.org/), [Ming-Yu Liu](http://mingyuliu.net/), [Fanyi Xiao](http://fanyix.cs.ucdavis.edu/), [Larry Davis](https://www.cs.umd.edu/people/lsdavis), [Jan Kautz](http://jankautz.com/) <br>
@@ -59,7 +59,7 @@ First, extract frames of your own videos and organize them in `datasets/demo/fra
 ```
 
 Second, modify the file `demo.py`:
-- checkpoint\_path: the path to the trained STEP model. You can use the model you trained on your own (see [Training](#trainingkkkkkkkkkkkkj)), or our trained model downloaded from [Google Drive](https://drive.google.com/file/d/11Lx7MqmmZFep9Sf_QA98gulK4i5QJ-H4/view?usp=sharing) and [Baidu Disk]().
+- checkpoint\_path: the path to the trained STEP model. You can use the model you trained on your own (see [Training](#training)), or our trained model downloaded from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) and [Baidu Disk]().
 - args.data\_root: the path to your video frames, and the default is `datasets/demo/frames/`
 - source\_fps: frame rate of your own videos
 - (optional) conf\_thresh and global\_thresh: thresholds for confidence scores and global NMS, these are the values you can control for better visualization
@@ -94,7 +94,7 @@ Each folder `<timestamp>/` contains the frames within a 1-second interval, start
 You can save your dataset and annotations in other directories. If so, you need to modify the default pathes in the training scripts, as mentioned in the next section.
 
 ### Testing
-We provide our trained models to reproduce the results reported in our paper. You can download the weights from [Google Drive](https://drive.google.com/file/d/11Lx7MqmmZFep9Sf_QA98gulK4i5QJ-H4/view?usp=sharing) or [Baidu Disk](), and put it in `pretrained/`.
+We provide our trained models to reproduce the results reported in our paper. You can download the weights from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) or [Baidu Disk](), and put it in `pretrained/`.
 
 Run the following command for testing and evaluation on the validation set of AVA:
 ```bash
@@ -105,7 +105,7 @@ The output will be stored in `datasets/ava/cache/STEP-max3-i3d-two_branch/`.
 STEP achieves **20.2% mAP** on AVA v2.1 using this implementation (updated in [arxiv]()).
 
 ### Training
-As the classification task on the AVA dataset is challenging, we perform classification pre-training on AVA using the ground truth annotations before training the detection models. Our classification pre-trained weights (mAP = 26.4%) can be downloaded from [Google Drive](https://drive.google.com/file/d/1ml1M87IHFBuax-sY_KYKCy509IawtuH2/view?usp=sharing) and [Baidu Disk](), and we put it in `pretrained/`.
+As the classification task on the AVA dataset is challenging, we perform classification pre-training on AVA using the ground truth annotations before training the detection models. Our classification pre-trained weights (mAP = 26.4%) can be downloaded from [Google Drive](https://drive.google.com/open?id=10GaTSI5LYtUvF5QasXuJAkK_RxgwltW4) and [Baidu Disk](), and we put it in `pretrained/`.
 
 Now we are ready to train STEP, using the following script:
 ```bash
