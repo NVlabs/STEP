@@ -59,7 +59,7 @@ First, extract frames of your own videos and organize them in `datasets/demo/fra
 ```
 
 Second, modify the file `demo.py`:
-- checkpoint\_path: the path to the trained STEP model. You can use the model you trained on your own (see [Training](#training)), or our trained model downloaded from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) and [Baidu Disk]().
+- checkpoint\_path: the path to the trained STEP model. You can use the model you trained on your own (see [Training](#training)), or our trained model downloaded from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) and [Baidu Disk](https://pan.baidu.com/s/1a9gwYpMeWXusaPnuz84i5A).
 - args.data\_root: the path to your video frames, and the default is `datasets/demo/frames/`
 - source\_fps: frame rate of your own videos
 - (optional) conf\_thresh and global\_thresh: thresholds for confidence scores and global NMS, these are the values you can control for better visualization
@@ -94,7 +94,7 @@ Each folder `<timestamp>/` contains the frames within a 1-second interval, start
 You can save your dataset and annotations in other directories. If so, you need to modify the default pathes in the training scripts, as mentioned in the next section.
 
 ### Testing
-We provide our trained models to reproduce the results reported in our paper. You can download the weights from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) or [Baidu Disk](), and put it in `pretrained/`.
+We provide our trained models to reproduce the results reported in our paper. You can download the weights from [Google Drive](https://drive.google.com/open?id=1hIzrTzR50pYwLLzu_5GpmEGY4Q-e1-BX) or [Baidu Disk](https://pan.baidu.com/s/1a9gwYpMeWXusaPnuz84i5A), and put it in `pretrained/`.
 
 Run the following command for testing and evaluation on the validation set of AVA:
 ```bash
@@ -105,7 +105,7 @@ The output will be stored in `datasets/ava/cache/STEP-max3-i3d-two_branch/`.
 STEP achieves **20.2% mAP** on AVA v2.1 using this implementation (updated in [arxiv]()).
 
 ### Training
-As the classification task on the AVA dataset is challenging, we perform classification pre-training on AVA using the ground truth annotations before training the detection models. Our classification pre-trained weights (mAP = 26.4%) can be downloaded from [Google Drive](https://drive.google.com/open?id=10GaTSI5LYtUvF5QasXuJAkK_RxgwltW4) and [Baidu Disk](), and we put it in `pretrained/`.
+As the classification task on the AVA dataset is challenging, we perform classification pre-training on AVA using the ground truth annotations before training the detection models. Our classification pre-trained weights (mAP = 26.4%) can be downloaded from [Google Drive](https://drive.google.com/open?id=10GaTSI5LYtUvF5QasXuJAkK_RxgwltW4) and [Baidu Disk](https://pan.baidu.com/s/17MQIP2WL_fH5ew04QiTmBg), and we put it in `pretrained/`.
 
 Now we are ready to train STEP, using the following script:
 ```bash
@@ -121,7 +121,7 @@ You can also train your own pre-trained model using the following script:
 cd scripts
 bash train_cls.sh
 ```
-If so, you need the kinetics-pretrained weights for the I3D network, which can be downloaded from [Google Drive](https://drive.google.com/file/d/18dCg3-s86cjyCEgaPzFgP9z5Sp-K5yYS/view?usp=sharing) and [Baidu Disk]() and then put in `pretrained/`.
+If so, you need the kinetics-pretrained weights for the I3D network, which can be downloaded from [Google Drive](https://drive.google.com/file/d/18dCg3-s86cjyCEgaPzFgP9z5Sp-K5yYS/view?usp=sharing) and [Baidu Disk](https://pan.baidu.com/s/1CC0ueIGOj5EaxZvBAYmwag) and then put in `pretrained/`.
 
 ### Tips
 GPU memory requirement for the default setting (3 steps, 34 initial proposals, batch size 8):
