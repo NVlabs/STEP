@@ -45,7 +45,7 @@ python setup.py build develop
 ```
 
 ### (Optional) Demo
-**Try STEP on your own video data!** Our model trained on the AVA dataset can effectively detect common actions (e.g., stand, sit, walk, run, talk to, etc.) in general videos.
+**Try STEP on your own video data!** Our model pre-trained on the AVA dataset can effectively detect common actions (e.g., stand, sit, walk, run, talk to, etc.) in general videos.
 
 First, extract frames of your own videos and organize them in `datasets/demo/frames/` as follows:
 ```
