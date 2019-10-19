@@ -285,7 +285,7 @@ class AVADataset(data.Dataset):
             self.data = []
             for i, d in enumerate(data_list):
                 # remove the data with no proposals
-                if videoname_list[d[0]] in self.proposals and d[1] in self. proposals[videoname_list[d[0]]]:
+                if videoname_list[d[0]] in self.proposals and d[1] in self.proposals[videoname_list[d[0]]]:
                     self.data.append(d)
 
         else:
